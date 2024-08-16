@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px;
+  background-color: #13132a;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+select {
+  background: #232028;
+  box-shadow: 0px 0px 11px 0px #ffffff;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.btn {
+  padding: 9px 66px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #333333;
+  background: #bfaff2;
+  border-radius: 15px;
+  border: none;
+}
+
+.hero {
+  background: #101220;
+  padding: 350px 0 117px 0;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card {
+  width: 325px;
+  padding: 16px;
+  text-align: center;
+  color: white;
+  background: #232028;
+  border-radius: 20px;
+}
+.card img {
+  margin-top: -300px;
+  width: 248px;
+}
+.card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  margin-top: 15px;
+}
+footer {
+  background: #0c0e18;
+  padding: 20px;
+  color: white;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
